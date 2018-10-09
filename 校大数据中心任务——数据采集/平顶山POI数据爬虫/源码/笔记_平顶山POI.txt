@@ -1,0 +1,75 @@
+//汽车维修 automobile maintenance
+//汽车销售 automobile sales
+//商务住宅 commercial residence
+//生活服务 life services
+//事件活动 event activity
+//室内设施 indoor facilities
+//体育休闲服务 sports leisure service
+//通行设施 transit facilities
+//医疗保健服务 health care services
+//政府机构及社会团体 government agencies and social groups
+//住宿服务 accommodation services
+//科教文化服务 science education culture service
+//摩托车服务 motorcycle service
+//汽车服务 automobile service
+//餐饮服务 food service data
+//道路附属设施 road ancillary facilities
+//地名地址信息 location information of geographical names
+//风景名胜 beauty spot
+//公共设施 public facilities
+//公司企业 corporate enterprise
+//购物服务 shopping services
+//交通设施服务 transport facilities services
+//金融保险服务 financial insurance services
+//科技文化服务 science and technology culture service
+
+
+
+
+
+
+
+
+
+
+//对应的表名
+风景名胜  beaspo
+汽车维修  autmai
+道路附属设施  roaancfac
+科教文化服务  scieduculser
+金融保险服务  fininsser
+生活服务  lifser
+公共设施  pubfac
+住宿服务  accser
+汽车销售  autsal
+体育休闲服务  spoleiser
+商务住宅  comres
+事件活动  eveact
+餐饮服务  fooserdat
+医疗保健服务  heacarser
+科技文化服务  sciandtecculser
+地名地址信息  locinfofgeonam
+政府机构及社会团体  govageandsocgro
+通行设施  trafac
+室内设施  indfac
+公司企业  corent
+汽车服务  autser
+交通设施服务  trafacser
+购物服务  shoser
+摩托车服务  motser
+
+
+
+
+
+
+
+7a376014208c8d2830fb8b37283f0eec
+
+http://restapi.amap.com/v3/place/text?&keywords=餐饮服务&city=pingdingshan&output=json&offset=20&page=1&key=7a376014208c8d2830fb8b37283f0eec&extensions=all
+
+
+
+
+
+{"status":"1","count":"876","info":"OK","infocode":"10000","suggestion":{"keywords":[],"cities":[]},"pois":[{"id":"B017700W6P","tag":"香辣鸡腿堡,甜筒,奥尔良鸡翅,圣代,雪顶咖啡,新奥尔良烤翅,香辣鸡柳饭,新奥尔良烤鸡腿堡,日式咖喱鸡饭,汉堡,芋圆冰淇淋","name":"肯德基(双丰店)","type":"餐饮服务;快餐厅;肯德基","typecode":"050301","biz_type":"diner","address":"光曙路口双丰商城1层","location":"113.292080,33.733025","tel":"0375-2268777;4009200715","postcode":[],"website":"www.kfc.com.cn","email":[],"pcode":"410000","pname":"河南省","citycode":"0375","cityname":"平顶山市","adcode":"410402","adname":"新华区","importance":[],"shopid":[],"shopinfo":"0","poiweight":[],"gridcode":"5013427321","distance":[],"navi_poiid":"I49F028043_1320","entr_location":"113.292506,33.733165","exit_location":[],"match":"0","recommend":"0","timestamp":[],"alias":[],"indoor_map":"0","indoor_data":{"cpid":[],"floor":[],"truefloor":[]},"groupbuy_num":"0","business_area":[],"discount_num":"0","biz_ext":{"rating":"4.0","cost":"28.00","meal_ordering":"0"},"event":[],"photos":[{"title":[],"url":"http://store.is.autonavi.com/showpic/aefea700823d83f6ec7ca600bed1b19d"},{"title":[],"url":"http://store.is.autonavi.com/showpic/47d1fd76a94ae82a0d7057ac1a5d3fbf"},{"title":[],"url":"http://store.is.autonavi.com/showpic/62c8c5818874ac1801dc830bc79a786f"}],"children":[]},

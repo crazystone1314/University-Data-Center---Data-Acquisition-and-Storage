@@ -1,0 +1,47 @@
+城市 City
+楼盘名称 estate property
+价格 price(元/m)
+物业类别 property class   50
+项目区位 Project Location 30
+项目特色 Characteristic   50
+建筑类型 Building class   30
+装修状况 Decoration condition  30
+项目地址 Project Address  50
+交通状况 traffic condition  100
+投资商 investors  30
+交房时间 launch time  30
+开发商 developer  30
+容积率 plot ratio 20
+物业费 property management fee 50
+绿化率 greening rate  20
+总建筑面积 overall floorage 20
+物业公司 property management company 30
+预售许可证  permit for 30
+其他信息 other information  200
+
+create table lousi_info(
+city char(10),
+est_pro char(20) primary key,
+price char(10),
+pro_cla char(50),
+pro_loc char(30),
+characteristic char(50),
+bul_cla char(30),
+dec_con char(30),
+pro_add char(50),
+tra_con char(100),
+investors char(30),
+lau_time char(30),
+developer char(30),
+plo_rat char(20),
+pro_man_fee char(50),
+gre_rate char(20),
+ove_flo char(20),
+pro_man_com char(20),
+permit_for char(30),
+other_info char(200)
+)
+
+
+load data local infile 'D://estate_market_info.txt' into table lousi_info fields terminated by '\t' lines terminated by '\n';
+
