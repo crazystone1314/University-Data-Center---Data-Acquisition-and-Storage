@@ -1,0 +1,115 @@
+# 说明：UTF兼容ISO8859-1和ASCII，GB18030兼容GBK，GBK兼容GB2312，GB2312兼容ASCII  
+
+
+
+序号	报送单位	工作单位	姓名	申报专业	合格与否	备　　注
+
+create table ConstructionArchitectAtProvincialLevelIn2004 (
+index_id int primary key auto_increment,
+reporting_unit varchar(50),
+work_unit varchar(50),
+person_name char(10),
+application_specialty varchar(50),
+pass_or_not char(10),
+reserve_note varchar(50)
+)
+
+create table ConstructionArchitectAtProvincialLevelIn2007 (
+index_id int primary key auto_increment,
+reporting_unit varchar(50),
+work_unit varchar(50),
+person_name char(10),
+certificate_number varchar(10),
+qualification_certificate_specialty varchar(10),
+apply_for_registration_profession varchar(10)
+)
+
+
+load data infile 'd://Test/2004/' ignore into table test(reporting_unit, work_unit,
+person_name, application_specialty, pass_or_not, reserve_note) 
+
+
+
+d://Test/2004/2004一级建造qinghai.xls
+d://Test/2004/2004一级建造xinjiang.xls
+d://Test/2004/2004一级建造中信集团.xls
+d://Test/2004/2004一级建造中国万宝工程.xls
+d://Test/2004/2004一级建造中国冶金.xls
+d://Test/2004/2004一级建造中国化工.xls
+d://Test/2004/2004一级建造中国地质.xls
+d://Test/2004/2004一级建造中国成套设备.xls
+d://Test/2004/2004一级建造中国新兴.xls
+d://Test/2004/2004一级建造中国有色.xls
+d://Test/2004/2004一级建造中国水利水电.xls
+d://Test/2004/2004一级建造中国港湾.xls
+d://Test/2004/2004一级建造中国籍洗装备.xls
+d://Test/2004/2004一级建造中国航空.xls
+d://Test/2004/2004一级建造中国路桥.xls
+d://Test/2004/2004一级建造中国通信建设.xls
+d://Test/2004/2004一级建造中建总.xls
+d://Test/2004/2004一级建造中方工业.xls
+d://Test/2004/2004一级建造中机国际.xls
+d://Test/2004/2004一级建造中材工业.xls
+d://Test/2004/2004一级建造中核工业.xls
+d://Test/2004/2004一级建造中海油.xls
+d://Test/2004/2004一级建造中煤国际.xls
+d://Test/2004/2004一级建造中煤能源.xls
+d://Test/2004/2004一级建造中石化.xls
+d://Test/2004/2004一级建造中石油天然气.xls
+d://Test/2004/2004一级建造中船重工.xls
+d://Test/2004/2004一级建造中芯国际.xls
+d://Test/2004/2004一级建造中铁信号.xls
+d://Test/2004/2004一级建造中铁建.xls
+d://Test/2004/2004一级建造中铁总.xls
+d://Test/2004/2004一级建造交通部.xls
+d://Test/2004/2004一级建造交通部公路司.xls
+d://Test/2004/2004一级建造信息产业部.xls
+d://Test/2004/2004一级建造光电.xls
+d://Test/2004/2004一级建造国电.xls
+d://Test/2004/2004一级建造天津水泥设计院.xls
+d://Test/2004/2004一级建造寰球工程.xls
+d://Test/2004/2004一级建造师（上海）.xls
+d://Test/2004/2004一级建造师（云南）.xls
+d://Test/2004/2004一级建造师（内蒙）.xls
+d://Test/2004/2004一级建造师（北京）.xls
+d://Test/2004/2004一级建造师（吉林）.xls
+d://Test/2004/2004一级建造师（天津）.xls
+d://Test/2004/2004一级建造师（安徽）.xls
+d://Test/2004/2004一级建造师（山东）.xls
+d://Test/2004/2004一级建造师（山西）.xls
+d://Test/2004/2004一级建造师（广东）.xls
+d://Test/2004/2004一级建造师（广西）.xls
+d://Test/2004/2004一级建造师（思创）.xls
+d://Test/2004/2004一级建造师（江苏）.xls
+d://Test/2004/2004一级建造师（江西）.xls
+d://Test/2004/2004一级建造师（河北）.xls
+d://Test/2004/2004一级建造师（河南）.xls
+d://Test/2004/2004一级建造师（浙江）.xls
+d://Test/2004/2004一级建造师（海南）.xls
+d://Test/2004/2004一级建造师（湖北）.xls
+d://Test/2004/2004一级建造师（湖南）.xls
+d://Test/2004/2004一级建造师（贵州）.xls
+d://Test/2004/2004一级建造师（辽宁）.xls
+d://Test/2004/2004一级建造师（重庆）.xls
+d://Test/2004/2004一级建造师（附件）.xls
+d://Test/2004/2004一级建造师（黑龙江）.xls
+d://Test/2004/2004一级建造建科院.xls
+d://Test/2004/2004一级建造总后.xls
+d://Test/2004/2004一级建造新疆建设兵团.xls
+d://Test/2004/2004一级建造有色工程院.xls
+d://Test/2004/2004一级建造武警.xls
+d://Test/2004/2004一级建造民航总局.xls
+d://Test/2004/2004一级建造水利部.xls
+d://Test/2004/2004一级建造海诚工程院.xls
+d://Test/2004/2004一级建造葛洲坝.xls
+d://Test/2004/2004年城乡规划编制单位.doc
+
+
+
+
+
+
+
+
+
+LOAD DATA LOCAL INFILE 'd://Test/2004/2004一级建造qinghai.xls' INTO TABLE ConstructionArchitectAtProvincialLevelIn2004 FIELDS TERMINATED BY '\t'
