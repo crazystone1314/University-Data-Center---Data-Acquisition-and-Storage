@@ -1,0 +1,38 @@
+http://quote.eastmoney.com/stocklist.html#sz
+
+Request URL:http://finance.sina.com.cn/realstock/company/sz000001/nc.shtml
+http://finance.sina.com.cn/realstock/company/sz000001/nc.shtml
+
+<a target="_blank" href="http://quote.eastmoney.com/sz000001.html">平安银行(000001)</a>
+
+http://quote.eastmoney.com/stocklist.html#sz
+<span class="state f-up">交易中 2017-11-14 &nbsp;14:37:42
+            </span>
+
+https://gupiao.baidu.com/stock/sz300023.html
+
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400
+
+https://gupiao.baidu.com/stock/sz160924.html
+
+
+
+
+//创建数据库和表
+create table stock_info(
+s_name char(30) primary key,
+dt char(40),
+s_price char(10),
+s_max char(10),
+s_min char(10),
+today_open char(10),
+yes_closed char(10),
+trade_amount char(10),
+trade_volume char(10),
+net_worth char(10),
+discount_rate char(10)
+)
+
+
+//将爬取的数据导入表中
+load data local infile 'D://stock_info.txt' into table stock_info fields terminated by '\t' lines terminated by '\n';

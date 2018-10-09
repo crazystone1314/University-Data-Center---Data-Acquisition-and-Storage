@@ -1,0 +1,65 @@
+## 该次实践爬取的是河南省各城市的二手房相关信息，数据来源于房天下，并不是所有城市都采集到数据，因为在该网站有些城市没有二手房数据。
+
+
+#地区网址
+http://esf.fang.com/newsecond/esfcities.aspx
+
+
+#样例网址：
+http://esf.kaifeng.fang.com/
+http://esf.pingdingshan.fang.com/
+http://esf.anyang.fang.com/
+http://esf.xinyang.fang.com/
+
+
+#详细信息网址：
+http://esf.jiujiang.fang.com/chushou/3_320410480.htm?psid=1_1_30
+http://esf.xinyang.fang.com/chushou/3_160244910.htm?psid=1_2_30
+
+
+
+#要爬取的字段：
+城市 city
+总价 totalprice
+户型 housetype
+建筑面积 conarea
+单价 unitprice
+朝向 direction
+楼层 floor
+装修 decoration
+小区 xiaoqu
+区域 region
+建筑年代 architecturalage
+有无电梯 islift
+产权性质 propertynature
+住宅类型 residentialtype
+建筑建构 buildingstructure
+建筑类别 buildingtype
+挂牌时间 listingtime
+
+
+
+#建表
+create table houseinfo(
+id int primary key auto_increment,
+city varchar(10),
+totalprice varchar(10),
+housetype varchar(20),
+conarea varchar(10),
+unitprice varchar(10),
+direction varchar(10),
+floor varchar(10),
+decoration varchar(20),
+xiaoqu varchar(30),
+region varchar(40),
+architecturalage varchar(10),
+islift varchar(10),
+propertynature varchar(20),
+residentialtype varchar(20),
+buildingstructure varchar(20),
+buildingtype varchar(20),
+listingtime varchar(20)
+)
+
+
+
